@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>false</custom>
+    <layoutAssignments>
+        <layout>Asset-AHA Block</layout>
+        <recordType>Asset.AHA_Block</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-AHA Component</layout>
+        <recordType>Asset.AHA_Component</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-AHA Estate</layout>
+        <recordType>Asset.AHA_Estate</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-AHA Unit</layout>
+        <recordType>Asset.AHA_Unit</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Location-AHA Block</layout>
+        <recordType>Location.AHA_Block</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Location-AHA Estate</layout>
+        <recordType>Location.AHA_Estate</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Location-AHA Unit</layout>
+        <recordType>Location.AHA_Unit</recordType>
+    </layoutAssignments>
+    <userLicense>Salesforce</userLicense>
+</Profile>

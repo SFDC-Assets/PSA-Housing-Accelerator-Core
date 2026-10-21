@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHA_Location_Without_Twin_Asset</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(AHA_Twin_Asset__c) &amp;&amp; LocationId &lt;&gt;  null</errorConditionFormula>
+    <errorDisplayField>AHA_Twin_Asset__c</errorDisplayField>
+    <errorMessage>Please check &quot;Twin Asset&quot; if a Location is assigned.</errorMessage>
+</ValidationRule>

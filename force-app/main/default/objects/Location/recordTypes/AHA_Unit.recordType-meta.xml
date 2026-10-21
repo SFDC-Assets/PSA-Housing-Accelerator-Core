@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHA_Unit</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>AHA_Unit</compactLayoutAssignment>
+    <description>Represents a Location of type Unit, such as a flat or house</description>
+    <label>Unit</label>
+    <picklistValues>
+        <picklist>AHA_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Obsolete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LocationType</picklist>
+        <values>
+            <fullName>Bedsit %2F Studio %2F HMO Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communal Area Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat %2F Apartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garage %2F Parking Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maisonette</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Room %2F Shed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

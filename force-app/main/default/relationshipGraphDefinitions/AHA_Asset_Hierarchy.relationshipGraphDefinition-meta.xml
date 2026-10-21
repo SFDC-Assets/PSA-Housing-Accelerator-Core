@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelationshipGraphDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isActive>true</isActive>
+    <isTemplate>false</isTemplate>
+    <masterLabel>Asset Hierarchy</masterLabel>
+    <relationshipGraphDefVersions>
+        <graphDefinition>{&quot;graph&quot;:{&quot;rootNode&quot;:{&quot;id&quot;:&quot;30aa73bc-74f2-4553-ba8d-e1b95d2e66e1&quot;,&quot;object&quot;:{&quot;entity&quot;:&quot;Asset&quot;},&quot;configurationType&quot;:&quot;Primary&quot;,&quot;nodeUiConfig&quot;:{&quot;label&quot;:&quot;&quot;,&quot;fieldsToDisplay&quot;:[],&quot;showFieldLabels&quot;:true,&quot;actions&quot;:{}},&quot;childRelationships&quot;:[{&quot;OneToMany&quot;:{&quot;targetObjectNode&quot;:{&quot;sortFields&quot;:[{&quot;field&quot;:{&quot;field&quot;:&quot;LastModifiedDate&quot;,&quot;whichEntity&quot;:&quot;TARGET&quot;},&quot;order&quot;:&quot;DESC&quot;}],&quot;id&quot;:&quot;f066ec65-8fb4-402e-952c-b9726d789836&quot;,&quot;object&quot;:{&quot;entity&quot;:&quot;Asset&quot;},&quot;configurationType&quot;:&quot;Instance&quot;,&quot;nodeUiConfig&quot;:{&quot;label&quot;:&quot;&quot;,&quot;recordActionsLabel&quot;:&quot;&quot;,&quot;fieldsToDisplay&quot;:[],&quot;showFieldLabels&quot;:true,&quot;actions&quot;:{&quot;containerActions&quot;:[],&quot;recordActions&quot;:[],&quot;extensionRecordActions&quot;:[]},&quot;subtitleField&quot;:null,&quot;showImage&quot;:false,&quot;hideLabels&quot;:false,&quot;indicators&quot;:[]},&quot;childRelationships&quot;:[]},&quot;relationshipUiConfig&quot;:{},&quot;filter&quot;:{&quot;filterCriteria&quot;:[],&quot;booleanFilter&quot;:&quot;&quot;},&quot;targetObjectField&quot;:{&quot;field&quot;:&quot;ParentId&quot;,&quot;whichEntity&quot;:&quot;TARGET&quot;}}}]},&quot;globalUiConfig&quot;:{&quot;allowRuntimeCustomizations&quot;:false,&quot;styleVariant&quot;:&quot;Default&quot;}}}</graphDefinition>
+        <graphType>HorizontalHierarchy</graphType>
+    </relationshipGraphDefVersions>
+</RelationshipGraphDefinition>

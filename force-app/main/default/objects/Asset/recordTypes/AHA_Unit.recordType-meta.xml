@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHA_Unit</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>AHA_Unit</compactLayoutAssignment>
+    <description>An Asset representing the whole Unit (Twin Asset) or an Asset managed at the Unit level (e.g. Boiler).</description>
+    <label>Unit</label>
+    <picklistValues>
+        <picklist>AHA_Asset_Category__c</picklist>
+        <values>
+            <fullName>Access%2FSecurity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bathroom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental Monitoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heat Distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heating Source</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kitchen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Management</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AHA_Asset_Type__c</picklist>
+        <values>
+            <fullName>Air Source Heat Pump %28ASHP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Base Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO2 Monitors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Water Tank %28Loft%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Combi-Boiler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Unit %28Fuse Box%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electric Shower Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Front Entrance Door %28Fire Rated%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Source Heat Pump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardwired Smoke%2FHeat%2FCO Alarms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Water Cylinder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immersion Heater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrated Appliances %28if provided%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Doors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IoT Humidity Sensors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radiator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shower Tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sink%2FTap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solar Inverter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stopcock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage Heater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Boiler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thermostatic Mixer Valve %28TMV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toilet %28WC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Towel Rail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underfloor Heating Manifold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wall Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wash Hand Basin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Window Frames %28uPVC%2FTimber%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Window Restrictors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worktops</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ConsequenceOfFailure</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insignificant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DigitalAssetStatus</picklist>
+        <values>
+            <fullName>Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Obsolete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StatusReason</picklist>
+        <values>
+            <fullName>Not Ready</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standby</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

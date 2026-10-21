@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHA_Twin_Asset__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Enable this when this Asset record is a Twin of Location.</inlineHelpText>
+    <label>Twin Asset</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

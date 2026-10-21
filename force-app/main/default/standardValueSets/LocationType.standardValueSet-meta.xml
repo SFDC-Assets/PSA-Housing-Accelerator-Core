@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>General Needs Scheme</fullName>
+        <default>false</default>
+        <label>General Needs Scheme</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sheltered / Supported Housing Scheme</fullName>
+        <default>false</default>
+        <label>Sheltered / Supported Housing Scheme</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Extra Care Scheme</fullName>
+        <default>false</default>
+        <label>Extra Care Scheme</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mixed-Tenure Development</fullName>
+        <default>false</default>
+        <label>Mixed-Tenure Development</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Temporary Accommodation Site</fullName>
+        <default>false</default>
+        <label>Temporary Accommodation Site</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Commercial Zone</fullName>
+        <default>false</default>
+        <label>Commercial Zone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High-Rise Block</fullName>
+        <default>false</default>
+        <label>High-Rise Block</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Low / Mid-Rise Block</fullName>
+        <default>false</default>
+        <label>Low / Mid-Rise Block</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maisonette Block</fullName>
+        <default>false</default>
+        <label>Maisonette Block</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sheltered Facility Block</fullName>
+        <default>false</default>
+        <label>Sheltered Facility Block</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Garage Block</fullName>
+        <default>false</default>
+        <label>Garage Block</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Communal Structure</fullName>
+        <default>false</default>
+        <label>Communal Structure</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Flat / Apartment</fullName>
+        <default>false</default>
+        <label>Flat / Apartment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>House</fullName>
+        <default>false</default>
+        <label>House</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maisonette</fullName>
+        <default>false</default>
+        <label>Maisonette</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bedsit / Studio / HMO Room</fullName>
+        <default>false</default>
+        <label>Bedsit / Studio / HMO Room</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Garage / Parking Bay</fullName>
+        <default>false</default>
+        <label>Garage / Parking Bay</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Store Room / Shed</fullName>
+        <default>false</default>
+        <label>Store Room / Shed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Communal Area Unit</fullName>
+        <default>false</default>
+        <label>Communal Area Unit</label>
+    </standardValue>
+</StandardValueSet>

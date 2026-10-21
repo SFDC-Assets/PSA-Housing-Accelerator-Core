@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHA_Asset_Type__c</fullName>
+    <label>Asset Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>AHA_Asset_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Roof (Pitched/Flat)</fullName>
+                <default>false</default>
+                <label>Roof (Pitched/Flat)</label>
+            </value>
+            <value>
+                <fullName>Chimney Stack</fullName>
+                <default>false</default>
+                <label>Chimney Stack</label>
+            </value>
+            <value>
+                <fullName>External Wall (Cladding/Render)</fullName>
+                <default>false</default>
+                <label>External Wall (Cladding/Render)</label>
+            </value>
+            <value>
+                <fullName>Balcony</fullName>
+                <default>false</default>
+                <label>Balcony</label>
+            </value>
+            <value>
+                <fullName>Rainwater Goods (Gutters/Downpipes)</fullName>
+                <default>false</default>
+                <label>Rainwater Goods (Gutters/Downpipes)</label>
+            </value>
+            <value>
+                <fullName>Communal Fire Doors</fullName>
+                <default>false</default>
+                <label>Communal Fire Doors</label>
+            </value>
+            <value>
+                <fullName>Fire Alarm Panel</fullName>
+                <default>false</default>
+                <label>Fire Alarm Panel</label>
+            </value>
+            <value>
+                <fullName>Smoke Vents (AOV)</fullName>
+                <default>false</default>
+                <label>Smoke Vents (AOV)</label>
+            </value>
+            <value>
+                <fullName>Dry/Wet Risers</fullName>
+                <default>false</default>
+                <label>Dry/Wet Risers</label>
+            </value>
+            <value>
+                <fullName>Sprinkler System</fullName>
+                <default>false</default>
+                <label>Sprinkler System</label>
+            </value>
+            <value>
+                <fullName>Emergency Lighting</fullName>
+                <default>false</default>
+                <label>Emergency Lighting</label>
+            </value>
+            <value>
+                <fullName>Passenger Lift</fullName>
+                <default>false</default>
+                <label>Passenger Lift</label>
+            </value>
+            <value>
+                <fullName>Service Lift</fullName>
+                <default>false</default>
+                <label>Service Lift</label>
+            </value>
+            <value>
+                <fullName>Goods Lift</fullName>
+                <default>false</default>
+                <label>Goods Lift</label>
+            </value>
+            <value>
+                <fullName>Platform Lift</fullName>
+                <default>false</default>
+                <label>Platform Lift</label>
+            </value>
+            <value>
+                <fullName>Communal Water Tank</fullName>
+                <default>false</default>
+                <label>Communal Water Tank</label>
+            </value>
+            <value>
+                <fullName>Booster Pump</fullName>
+                <default>false</default>
+                <label>Booster Pump</label>
+            </value>
+            <value>
+                <fullName>Calorifier (Large Water Heater)</fullName>
+                <default>false</default>
+                <label>Calorifier (Large Water Heater)</label>
+            </value>
+            <value>
+                <fullName>Play Area Equipment</fullName>
+                <default>false</default>
+                <label>Play Area Equipment</label>
+            </value>
+            <value>
+                <fullName>Communal Lighting</fullName>
+                <default>false</default>
+                <label>Communal Lighting</label>
+            </value>
+            <value>
+                <fullName>Bin Stores</fullName>
+                <default>false</default>
+                <label>Bin Stores</label>
+            </value>
+            <value>
+                <fullName>Perimeter Fencing</fullName>
+                <default>false</default>
+                <label>Perimeter Fencing</label>
+            </value>
+            <value>
+                <fullName>Automated Gates/Barriers</fullName>
+                <default>false</default>
+                <label>Automated Gates/Barriers</label>
+            </value>
+            <value>
+                <fullName>Solar PV Array (Communal)</fullName>
+                <default>false</default>
+                <label>Solar PV Array (Communal)</label>
+            </value>
+            <value>
+                <fullName>EV Charging Station</fullName>
+                <default>false</default>
+                <label>EV Charging Station</label>
+            </value>
+            <value>
+                <fullName>Substation</fullName>
+                <default>false</default>
+                <label>Substation</label>
+            </value>
+            <value>
+                <fullName>Communal Boiler (District Heating)</fullName>
+                <default>false</default>
+                <label>Communal Boiler (District Heating)</label>
+            </value>
+            <value>
+                <fullName>Combi-Boiler</fullName>
+                <default>false</default>
+                <label>Combi-Boiler</label>
+            </value>
+            <value>
+                <fullName>System Boiler</fullName>
+                <default>false</default>
+                <label>System Boiler</label>
+            </value>
+            <value>
+                <fullName>Air Source Heat Pump (ASHP)</fullName>
+                <default>false</default>
+                <label>Air Source Heat Pump (ASHP)</label>
+            </value>
+            <value>
+                <fullName>Ground Source Heat Pump</fullName>
+                <default>false</default>
+                <label>Ground Source Heat Pump</label>
+            </value>
+            <value>
+                <fullName>Storage Heater</fullName>
+                <default>false</default>
+                <label>Storage Heater</label>
+            </value>
+            <value>
+                <fullName>Radiator</fullName>
+                <default>false</default>
+                <label>Radiator</label>
+            </value>
+            <value>
+                <fullName>Underfloor Heating Manifold</fullName>
+                <default>false</default>
+                <label>Underfloor Heating Manifold</label>
+            </value>
+            <value>
+                <fullName>Towel Rail</fullName>
+                <default>false</default>
+                <label>Towel Rail</label>
+            </value>
+            <value>
+                <fullName>Consumer Unit (Fuse Box)</fullName>
+                <default>false</default>
+                <label>Consumer Unit (Fuse Box)</label>
+            </value>
+            <value>
+                <fullName>Hardwired Smoke/Heat/CO Alarms</fullName>
+                <default>false</default>
+                <label>Hardwired Smoke/Heat/CO Alarms</label>
+            </value>
+            <value>
+                <fullName>Immersion Heater</fullName>
+                <default>false</default>
+                <label>Immersion Heater</label>
+            </value>
+            <value>
+                <fullName>Solar Inverter</fullName>
+                <default>false</default>
+                <label>Solar Inverter</label>
+            </value>
+            <value>
+                <fullName>Hot Water Cylinder</fullName>
+                <default>false</default>
+                <label>Hot Water Cylinder</label>
+            </value>
+            <value>
+                <fullName>Cold Water Tank (Loft)</fullName>
+                <default>false</default>
+                <label>Cold Water Tank (Loft)</label>
+            </value>
+            <value>
+                <fullName>Thermostatic Mixer Valve (TMV)</fullName>
+                <default>false</default>
+                <label>Thermostatic Mixer Valve (TMV)</label>
+            </value>
+            <value>
+                <fullName>Stopcock</fullName>
+                <default>false</default>
+                <label>Stopcock</label>
+            </value>
+            <value>
+                <fullName>Base Units</fullName>
+                <default>false</default>
+                <label>Base Units</label>
+            </value>
+            <value>
+                <fullName>Wall Units</fullName>
+                <default>false</default>
+                <label>Wall Units</label>
+            </value>
+            <value>
+                <fullName>Worktops</fullName>
+                <default>false</default>
+                <label>Worktops</label>
+            </value>
+            <value>
+                <fullName>Sink/Tap</fullName>
+                <default>false</default>
+                <label>Sink/Tap</label>
+            </value>
+            <value>
+                <fullName>Integrated Appliances (if provided)</fullName>
+                <default>false</default>
+                <label>Integrated Appliances (if provided)</label>
+            </value>
+            <value>
+                <fullName>Bath</fullName>
+                <default>false</default>
+                <label>Bath</label>
+            </value>
+            <value>
+                <fullName>Shower Tray</fullName>
+                <default>false</default>
+                <label>Shower Tray</label>
+            </value>
+            <value>
+                <fullName>Electric Shower Unit</fullName>
+                <default>false</default>
+                <label>Electric Shower Unit</label>
+            </value>
+            <value>
+                <fullName>Toilet (WC)</fullName>
+                <default>false</default>
+                <label>Toilet (WC)</label>
+            </value>
+            <value>
+                <fullName>Wash Hand Basin</fullName>
+                <default>false</default>
+                <label>Wash Hand Basin</label>
+            </value>
+            <value>
+                <fullName>Front Entrance Door (Fire Rated)</fullName>
+                <default>false</default>
+                <label>Front Entrance Door (Fire Rated)</label>
+            </value>
+            <value>
+                <fullName>Internal Doors</fullName>
+                <default>false</default>
+                <label>Internal Doors</label>
+            </value>
+            <value>
+                <fullName>Window Frames (uPVC/Timber)</fullName>
+                <default>false</default>
+                <label>Window Frames (uPVC/Timber)</label>
+            </value>
+            <value>
+                <fullName>Window Restrictors</fullName>
+                <default>false</default>
+                <label>Window Restrictors</label>
+            </value>
+            <value>
+                <fullName>IoT Humidity Sensors</fullName>
+                <default>false</default>
+                <label>IoT Humidity Sensors</label>
+            </value>
+            <value>
+                <fullName>CO2 Monitors</fullName>
+                <default>false</default>
+                <label>CO2 Monitors</label>
+            </value>
+            <value>
+                <fullName>Diverter Valve</fullName>
+                <default>false</default>
+                <label>Diverter Valve</label>
+            </value>
+            <value>
+                <fullName>Fan Motor</fullName>
+                <default>false</default>
+                <label>Fan Motor</label>
+            </value>
+            <value>
+                <fullName>PCB</fullName>
+                <default>false</default>
+                <label>PCB</label>
+            </value>
+            <value>
+                <fullName>Heat Exchanger</fullName>
+                <default>false</default>
+                <label>Heat Exchanger</label>
+            </value>
+            <value>
+                <fullName>RCD (Residual Current Device)</fullName>
+                <default>false</default>
+                <label>RCD (Residual Current Device)</label>
+            </value>
+            <value>
+                <fullName>MCB (Circuit Breaker)</fullName>
+                <default>false</default>
+                <label>MCB (Circuit Breaker)</label>
+            </value>
+            <value>
+                <fullName>Intumescent Strip</fullName>
+                <default>false</default>
+                <label>Intumescent Strip</label>
+            </value>
+            <value>
+                <fullName>Self-Closing Device</fullName>
+                <default>false</default>
+                <label>Self-Closing Device</label>
+            </value>
+            <value>
+                <fullName>Fire-Rated Letterbox</fullName>
+                <default>false</default>
+                <label>Fire-Rated Letterbox</label>
+            </value>
+            <value>
+                <fullName>Flush Syphon</fullName>
+                <default>false</default>
+                <label>Flush Syphon</label>
+            </value>
+            <value>
+                <fullName>Inlet Valve</fullName>
+                <default>false</default>
+                <label>Inlet Valve</label>
+            </value>
+            <value>
+                <fullName>Toilet Seat</fullName>
+                <default>false</default>
+                <label>Toilet Seat</label>
+            </value>
+            <value>
+                <fullName>Pan Connector</fullName>
+                <default>false</default>
+                <label>Pan Connector</label>
+            </value>
+            <value>
+                <fullName>Friction Stay (Hinge)</fullName>
+                <default>false</default>
+                <label>Friction Stay (Hinge)</label>
+            </value>
+            <value>
+                <fullName>Espag Handle</fullName>
+                <default>false</default>
+                <label>Espag Handle</label>
+            </value>
+            <value>
+                <fullName>Double Glazed Unit (DGU)</fullName>
+                <default>false</default>
+                <label>Double Glazed Unit (DGU)</label>
+            </value>
+            <value>
+                <fullName>Traction Motor</fullName>
+                <default>false</default>
+                <label>Traction Motor</label>
+            </value>
+            <value>
+                <fullName>Control Board</fullName>
+                <default>false</default>
+                <label>Control Board</label>
+            </value>
+            <value>
+                <fullName>Door Operator</fullName>
+                <default>false</default>
+                <label>Door Operator</label>
+            </value>
+            <value>
+                <fullName>Lift Cable</fullName>
+                <default>false</default>
+                <label>Lift Cable</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Water Management</controllingFieldValue>
+            <valueName>Hot Water Cylinder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water Management</controllingFieldValue>
+            <valueName>Cold Water Tank (Loft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water Management</controllingFieldValue>
+            <valueName>Thermostatic Mixer Valve (TMV)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water Management</controllingFieldValue>
+            <valueName>Stopcock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchen</controllingFieldValue>
+            <valueName>Base Units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchen</controllingFieldValue>
+            <valueName>Wall Units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchen</controllingFieldValue>
+            <valueName>Worktops</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchen</controllingFieldValue>
+            <valueName>Sink/Tap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kitchen</controllingFieldValue>
+            <valueName>Integrated Appliances (if provided)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bathroom</controllingFieldValue>
+            <valueName>Bath</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bathroom</controllingFieldValue>
+            <valueName>Shower Tray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bathroom</controllingFieldValue>
+            <valueName>Electric Shower Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bathroom</controllingFieldValue>
+            <valueName>Toilet (WC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bathroom</controllingFieldValue>
+            <valueName>Wash Hand Basin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access/Security</controllingFieldValue>
+            <valueName>Front Entrance Door (Fire Rated)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access/Security</controllingFieldValue>
+            <valueName>Internal Doors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access/Security</controllingFieldValue>
+            <valueName>Window Frames (uPVC/Timber)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access/Security</controllingFieldValue>
+            <valueName>Window Restrictors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Environmental Monitoring</controllingFieldValue>
+            <valueName>IoT Humidity Sensors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Environmental Monitoring</controllingFieldValue>
+            <valueName>CO2 Monitors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Combi-Boiler</controllingFieldValue>
+            <valueName>Diverter Valve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Combi-Boiler</controllingFieldValue>
+            <valueName>Fan Motor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Combi-Boiler</controllingFieldValue>
+            <valueName>PCB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Combi-Boiler</controllingFieldValue>
+            <valueName>Heat Exchanger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Unit</controllingFieldValue>
+            <valueName>RCD (Residual Current Device)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Unit</controllingFieldValue>
+            <valueName>MCB (Circuit Breaker)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Door</controllingFieldValue>
+            <valueName>Intumescent Strip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Door</controllingFieldValue>
+            <valueName>Self-Closing Device</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Door</controllingFieldValue>
+            <valueName>Fire-Rated Letterbox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toilet/WC</controllingFieldValue>
+            <valueName>Flush Syphon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toilet/WC</controllingFieldValue>
+            <valueName>Inlet Valve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toilet/WC</controllingFieldValue>
+            <valueName>Toilet Seat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toilet/WC</controllingFieldValue>
+            <valueName>Pan Connector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Fabric</controllingFieldValue>
+            <valueName>Roof (Pitched/Flat)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Fabric</controllingFieldValue>
+            <valueName>Chimney Stack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Fabric</controllingFieldValue>
+            <valueName>External Wall (Cladding/Render)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Fabric</controllingFieldValue>
+            <valueName>Balcony</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Fabric</controllingFieldValue>
+            <valueName>Rainwater Goods (Gutters/Downpipes)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Safety</controllingFieldValue>
+            <valueName>Communal Fire Doors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Safety</controllingFieldValue>
+            <valueName>Fire Alarm Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Safety</controllingFieldValue>
+            <valueName>Smoke Vents (AOV)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Safety</controllingFieldValue>
+            <valueName>Dry/Wet Risers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Safety</controllingFieldValue>
+            <valueName>Sprinkler System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire Safety</controllingFieldValue>
+            <valueName>Emergency Lighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vertical Transport</controllingFieldValue>
+            <valueName>Passenger Lift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vertical Transport</controllingFieldValue>
+            <valueName>Service Lift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vertical Transport</controllingFieldValue>
+            <valueName>Goods Lift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vertical Transport</controllingFieldValue>
+            <valueName>Platform Lift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water Hygiene</controllingFieldValue>
+            <valueName>Communal Water Tank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water Hygiene</controllingFieldValue>
+            <valueName>Booster Pump</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water Hygiene</controllingFieldValue>
+            <valueName>Calorifier (Large Water Heater)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estate/External</controllingFieldValue>
+            <valueName>Play Area Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estate/External</controllingFieldValue>
+            <valueName>Communal Lighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estate/External</controllingFieldValue>
+            <valueName>Bin Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estate/External</controllingFieldValue>
+            <valueName>Perimeter Fencing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estate/External</controllingFieldValue>
+            <valueName>Automated Gates/Barriers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy &amp; Utilities</controllingFieldValue>
+            <valueName>Solar PV Array (Communal)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy &amp; Utilities</controllingFieldValue>
+            <valueName>EV Charging Station</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy &amp; Utilities</controllingFieldValue>
+            <valueName>Substation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy &amp; Utilities</controllingFieldValue>
+            <valueName>Communal Boiler (District Heating)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating Source</controllingFieldValue>
+            <valueName>Combi-Boiler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating Source</controllingFieldValue>
+            <valueName>System Boiler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating Source</controllingFieldValue>
+            <valueName>Air Source Heat Pump (ASHP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating Source</controllingFieldValue>
+            <valueName>Ground Source Heat Pump</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating Source</controllingFieldValue>
+            <valueName>Storage Heater</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heat Distribution</controllingFieldValue>
+            <valueName>Radiator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heat Distribution</controllingFieldValue>
+            <valueName>Underfloor Heating Manifold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heat Distribution</controllingFieldValue>
+            <valueName>Towel Rail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows</controllingFieldValue>
+            <valueName>Friction Stay (Hinge)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows</controllingFieldValue>
+            <valueName>Espag Handle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows</controllingFieldValue>
+            <valueName>Double Glazed Unit (DGU)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Consumer Unit (Fuse Box)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Hardwired Smoke/Heat/CO Alarms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Immersion Heater</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Solar Inverter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lift</controllingFieldValue>
+            <valueName>Traction Motor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lift</controllingFieldValue>
+            <valueName>Control Board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lift</controllingFieldValue>
+            <valueName>Door Operator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lift</controllingFieldValue>
+            <valueName>Lift Cable</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

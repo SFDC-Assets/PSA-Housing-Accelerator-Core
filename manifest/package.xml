@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Asset.AHA_Block</members>
+        <members>Asset.AHA_Component</members>
+        <members>Asset.AHA_Estate</members>
+        <members>Asset.AHA_Unit</members>
+        <members>Location.AHA_Block</members>
+        <members>Location.AHA_Estate</members>
+        <members>Location.AHA_Unit</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>AHA</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Asset.AHA_Asset_Category__c</members>
+        <members>Asset.AHA_Asset_Type__c</members>
+        <members>Asset.AHA_Parent_Block__c</members>
+        <members>Asset.AHA_Parent_Estate__c</members>
+        <members>Asset.AHA_Twin_Asset__c</members>
+        <members>Asset.AHA_UPRN__c</members>
+        <members>Location.AHA_Long_Description__c</members>
+        <members>Location.AHA_Managed_By__c</members>
+        <members>Location.AHA_Status__c</members>
+        <members>Location.AHA_Twin_Asset__c</members>
+        <members>Location.AHA_UPRN__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>AHA_Block</members>
+        <members>AHA_Block_Asset</members>
+        <members>AHA_Component_Asset</members>
+        <members>AHA_Estate</members>
+        <members>AHA_Estate_Asset</members>
+        <members>AHA_Unit</members>
+        <members>AHA_Unit_Asset</members>
+        <members>AHA_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>AHA_Create_Twin_Asset</members>
+        <members>AHA_Update_Asset_Parents</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Asset-AHA Block</members>
+        <members>Asset-AHA Component</members>
+        <members>Asset-AHA Estate</members>
+        <members>Asset-AHA Unit</members>
+        <members>Location-AHA Block</members>
+        <members>Location-AHA Estate</members>
+        <members>Location-AHA Unit</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Location.All_Locations</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>AHA_Core</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Asset.Update_Asset</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Asset.AHA_Block</members>
+        <members>Asset.AHA_Component</members>
+        <members>Asset.AHA_Estate</members>
+        <members>Asset.AHA_Unit</members>
+        <members>Location.AHA_Block</members>
+        <members>Location.AHA_Estate</members>
+        <members>Location.AHA_Unit</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>AHA_Asset_Hierarchy</members>
+        <members>AHA_Locations_and_Assets_Hierarchy</members>
+        <name>RelationshipGraphDefinition</name>
+    </types>
+    <types>
+        <members>Asset.AHA_Location_Without_Twin_Asset</members>
+        <members>Asset.AHA_Restrict_Parent_Asset</members>
+        <members>Asset.AHA_Twin_Asset_Without_Location</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>63.0</version>
+</Package>

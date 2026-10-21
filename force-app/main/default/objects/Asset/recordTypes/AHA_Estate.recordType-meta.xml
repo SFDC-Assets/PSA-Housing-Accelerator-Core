@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHA_Estate</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>AHA_Estate</compactLayoutAssignment>
+    <description>An Asset representing either the whole Estate (Twin Asset) or an Asset managed at the Estate level (e.g. Playground).</description>
+    <label>Estate</label>
+    <picklistValues>
+        <picklist>AHA_Asset_Category__c</picklist>
+        <values>
+            <fullName>Energy %26 Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estate%2FExternal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire Safety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Fabric</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vertical Transport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Hygiene</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AHA_Asset_Type__c</picklist>
+        <values>
+            <fullName>Automated Gates%2FBarriers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Balcony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bin Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Booster Pump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calorifier %28Large Water Heater%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chimney Stack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communal Boiler %28District Heating%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communal Fire Doors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communal Lighting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communal Water Tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dry%2FWet Risers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EV Charging Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency Lighting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Wall %28Cladding%2FRender%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire Alarm Panel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goods Lift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passenger Lift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perimeter Fencing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platform Lift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Play Area Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rainwater Goods %28Gutters%2FDownpipes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roof %28Pitched%2FFlat%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Lift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smoke Vents %28AOV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solar PV Array %28Communal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Substation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ConsequenceOfFailure</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insignificant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DigitalAssetStatus</picklist>
+        <values>
+            <fullName>Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Obsolete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StatusReason</picklist>
+        <values>
+            <fullName>Not Ready</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standby</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

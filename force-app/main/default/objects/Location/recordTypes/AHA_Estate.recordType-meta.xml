@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHA_Estate</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>AHA_Estate</compactLayoutAssignment>
+    <description>Represents a Location of type Estate, such as a housing Estate</description>
+    <label>Estate</label>
+    <picklistValues>
+        <picklist>AHA_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Obsolete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LocationType</picklist>
+        <values>
+            <fullName>Commercial Zone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extra Care Scheme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Needs Scheme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed-Tenure Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheltered %2F Supported Housing Scheme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temporary Accommodation Site</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
