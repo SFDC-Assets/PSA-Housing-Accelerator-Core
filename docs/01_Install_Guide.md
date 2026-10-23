@@ -47,9 +47,6 @@ Store Room / Shed
 Communal Area Unit
 ```
 3. Click Save.
-4. Below are optional example values for your convenience, copy-paste to Location.LocationType
-
-![](images/image1.png)
 
 ### Step 5 - Picklist - Status (Asset object)
 To install the Accelerator, it is required that the **Status** picklist field on the **Asset** object is populated with the values below. The Record Types created for the Asset object are configured to work with these values. Confirm you already have these values active in your picklists.
